@@ -1,0 +1,14 @@
+﻿C:\Users\anonymous-legion\Documents\CyberSecurity\WinKit\WinKit\WinKit.vcxproj(105,5): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.Shared.props (352,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+C:\Users\anonymous-legion\Documents\CyberSecurity\WinKit\WinKit\WinKit.vcxproj(153,5): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets" cannot be imported again. It was already imported at "C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets (1878,3)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  Building 'WinKit' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\WinKit.inf
+  Stamping [Version] section with DriverVer=05/12/2022,7.36.59.543
+C:\Users\anonymous-legion\Documents\CyberSecurity\WinKit\WinKit\WinKit.inf(23-23): warning 2083: Section [standard.ntamd64] not referenced or used.
+  Assembling instrinsics.asm...
+instrinsics.asm(2): error A2034: must be in segment block : __sidt__
+instrinsics.asm(3): error A2034: must be in segment block
+instrinsics.asm(4): error A2034: must be in segment block
+instrinsics.asm(5): error A2034: must be in segment block
+instrinsics.asm(6): error A2034: must be in segment block
+instrinsics.asm(7): fatal error A1010: unmatched block nesting : __sidt__
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml64.exe /c /nologo /Zi /Fo"x64\Debug\instrinsics.obj" /W3 /errorReport:prompt  /Tainstrinsics.asm" exited with code 1.
